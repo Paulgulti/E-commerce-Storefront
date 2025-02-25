@@ -36,7 +36,7 @@ const ProductTile = ({ product }) => {
         <div className='mt-5'>
           <button
             onClick={cart.some(item => item.id === product.id) ? handleRemoveFromCart : handleAddToCart}
-            className=' bg-red-950 cursor-pointer p-4 font-bold border-2 rounded-lg text-white item-ce'
+            className=' bg-red-950 cursor-pointer p-4 font-bold border-2 rounded-lg text-white items-center'
           >
             {cart.some(item => item.id === product.id) ? "Remove from Cart" : "Add to Cart"}
           </button>
