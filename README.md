@@ -1,8 +1,4 @@
-# React + Vite
+#E-commerce Storefront
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This small design minimalist project contains an e-commerce storefront where users can add an item of their choice to a cart and access the items in the cart by navigating to the cart page. On the cart page users can see how many items they put in and the total price they cost.
+I used Redux and Redux toolkit for global state management and I used Tailwimd-css to style the webpage.
