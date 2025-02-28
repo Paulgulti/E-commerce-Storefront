@@ -13,7 +13,7 @@ const Cart = () => {
     setTotalCartAmount( total.toFixed(2) )
   }, [cart])
 
-  console.log(totalCartAmount)
+  // console.log(cart)
 
   return (
     <div className='flex justify-center '>
